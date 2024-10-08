@@ -65,7 +65,7 @@ class MainActivity : AppCompatActivity() {
                 binding.btKebab.setTextColor(R.color.dark_gray)
                 binding.btPizza.setBackgroundResource(R.drawable.bg_button_disabled)
                 binding.btPizza.setTextColor(R.color.dark_gray)
-                binding.recyclerViewProducts.visibility = View.INVISIBLE
+                binding.recyclerViewProducts.visibility = View.VISIBLE
                 binding.txtListTitle.text = "All"
 
 
@@ -87,7 +87,7 @@ class MainActivity : AppCompatActivity() {
                 binding.btPizza.setBackgroundResource(R.drawable.bg_button_disabled)
                 binding.btPizza.setTextColor(R.color.dark_gray)
 
-                binding.recyclerViewProducts.visibility = View.INVISIBLE
+                binding.recyclerViewProducts.visibility = View.VISIBLE
                 binding.txtListTitle.text = "Chicken"
 
 
@@ -135,7 +135,7 @@ class MainActivity : AppCompatActivity() {
                 binding.btAll.setTextColor(R.color.dark_gray)
 
 
-                binding.recyclerViewProducts.visibility = View.INVISIBLE
+                binding.recyclerViewProducts.visibility = View.VISIBLE
                 binding.txtListTitle.text = "Kebab"
 
 
