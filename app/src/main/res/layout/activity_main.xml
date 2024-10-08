@@ -27,12 +27,12 @@
             android:fillViewport="true">
 
 
-        
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
-            
+
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btAll"
                 android:layout_width="wrap_content"
@@ -40,7 +40,7 @@
                 android:text="All"
                 android:textColor="@color/dark_gray"
                 android:textSize="18sp"
-                android:background="@color/white"
+                android:background="@drawable/bg_button_disabled"
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="20dp"/>
@@ -52,7 +52,7 @@
                 android:text="Chicken"
                 android:textColor="@color/dark_gray"
                 android:textSize="18sp"
-                android:background="@color/white"
+                android:background="@drawable/bg_button_disabled"
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="20dp"/>
@@ -64,7 +64,7 @@
                 android:text="Pizza"
                 android:textColor="@color/dark_gray"
                 android:textSize="18sp"
-                android:background="@color/white"
+                android:background="@drawable/bg_button_disabled"
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="20dp"/>
@@ -76,7 +76,7 @@
                 android:text="Kebab"
                 android:textColor="@color/dark_gray"
                 android:textSize="18sp"
-                android:background="@color/white"
+                android:background="@drawable/bg_button_disabled"
                 android:layout_marginTop="20dp"
                 android:layout_marginHorizontal="10dp"
                 android:layout_marginBottom="20dp"/>
@@ -89,7 +89,20 @@
 
     </LinearLayout>
 
-
+    <TextView
+        android:id="@+id/txtListTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="all"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_margin="20dp" />
+    
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerViewProducts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="invisible" />
 
 
 </LinearLayout>
