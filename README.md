@@ -4,9 +4,10 @@ Este é um projeto de aplicativo Android para uma Pizzaria, desenvolvido em Kotl
 
 ## 📱Preview
 
--![Tela_Filtro](https://github.com/user-attachments/assets/c27bbe31-5696-45cc-b80e-beb390c3247f)
--![tela_pagamento](https://github.com/user-attachments/assets/d04204de-98c0-40da-aed7-6ea81f311b6f)
--![tela_detalhes](https://github.com/user-attachments/assets/11a7ab23-93b9-41d8-9bda-1a93d2fb984c)
+![Tela_Filtro](https://github.com/user-attachments/assets/c27bbe31-5696-45cc-b80e-beb390c3247f)
+![tela_pagamento](https://github.com/user-attachments/assets/d04204de-98c0-40da-aed7-6ea81f311b6f)
+![tela_detalhes](https://github.com/user-attachments/assets/11a7ab23-93b9-41d8-9bda-1a93d2fb984c)
+![Captura de tela 2024-10-08 154622](https://github.com/user-attachments/assets/3b9ae4a9-66af-4cc3-a99b-1dea2deeb3e0)
 
 ## Funcionalidades
 
