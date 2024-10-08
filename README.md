@@ -67,7 +67,28 @@ Este é um projeto de aplicativo Android para uma Pizzaria, desenvolvido em Kotl
 9. **Layouts XML**:
    - Definição de layouts com **LinearLayout** para organizar as views de forma vertical.
    - Aplicação de **TextView**, **Button**, **EditText**, **RadioGroup**, e customização via estilos e temas.
-  
+
+
+## Como Executar o Projeto
+
+Siga as instruções abaixo para executar o projeto de Pizzaria no seu ambiente local:
+
+### Pré-requisitos
+
+Antes de começar, certifique-se de que você possui:
+
+- [Android Studio](https://developer.android.com/studio) instalado.
+- JDK (Java Development Kit) instalado.
+- Um dispositivo Android ou emulador configurado.
+
+### Passos
+
+1. **Clone o Repositório**
+
+   Abra o terminal e execute o seguinte comando para clonar o repositório:
+
+   ```bash
+   git clone <URL_DO_REPOSITORIO>
 
 ## Melhorias Futuras
 
